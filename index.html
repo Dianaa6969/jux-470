@@ -1,0 +1,96 @@
+<!doctype html>
+
+<html lang="id">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>View Now</title>  <!-- Meta yang netral supaya lebih 'aman' saat dibagikan -->  <meta property="og:title" content="View Now">
+  <meta property="og:description" content="Tap to view the full content.">
+  <meta property="og:image" content="https://i.imgur.com/KO6TmGk.jpeg">
+  <meta name="twitter:card" content="summary_large_image">  <!-- Favicon kecil netral (data URI) -->  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16'%3E%3Ccircle cx='8' cy='8' r='7' fill='%231e90ff'/%3E%3C/svg%3E">  <style>
+    :root{--blue:#1e88ff}
+    html,body{height:100%;margin:0;font-family:system-ui,-apple-system,Segoe UI,Roboto,'Helvetica Neue',Arial}
+    body{
+      background-image:url('https://i.imgur.com/KO6TmGk.jpeg');
+      background-size:cover;
+      background-position:center;
+      background-repeat:no-repeat;
+      -webkit-font-smoothing:antialiased;
+      display:flex;align-items:center;justify-content:center;
+    }
+
+    .wrap{width:100%;max-width:420px;padding:40px 24px;box-sizing:border-box}
+
+    .spacer{height:48px}
+
+    .btn{
+      display:flex;align-items:center;gap:16px;padding:18px 22px;border-radius:44px;background:var(--blue);color:#fff;text-decoration:none;font-weight:600;font-size:20px;box-shadow:0 8px 20px rgba(0,0,0,0.12);border:0;cursor:pointer;user-select:none;overflow:hidden}
+
+    .btn .icon{
+      width:34px;height:34px;min-width:34px;border-radius:10px;background:rgba(255,255,255,0.15);display:inline-flex;align-items:center;justify-content:center;font-size:16px}
+
+    /* Animasi goyang kanan-kiri agak cepat */
+    @keyframes shakeX{0%{transform:translateX(-8px)}50%{transform:translateX(8px)}100%{transform:translateX(-8px)}}
+    .btn.shake{animation:shakeX 0.38s linear infinite}
+
+    /* Letakkan tombol di tengah dengan jarak seperti gambar */
+    .btn + .spacer{height:120px}
+
+    /* Responsive kecil */
+    @media (max-width:420px){
+      .wrap{padding:36px 18px}
+      .btn{font-size:18px;padding:16px 18px}
+    }
+
+    /* Sentuhan kecil untuk ikon SVG agar kontras */
+    .icon svg{display:block}
+
+    /* Hindari pointer events pada background */
+    .bg-fade{position:fixed;inset:0;background:rgba(255,255,255,0.02);pointer-events:none}
+  </style></head>
+<body>
+  <div class="bg-fade"></div>
+  <div class="wrap" role="main"><!-- Tombol 1 -->
+<a class="btn shake" id="btn1" href="https://www.effectivegatecpm.com/wkj2qmku?key=469be1ba075a153196aae2fe5b0810c7" target="_blank" rel="noopener noreferrer">
+  <span class="icon" aria-hidden="true">
+    <!-- camera icon -->
+    <svg width="18" height="18" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+      <path d="M4 7H6L7 5H17L18 7H20C21.1 7 22 7.9 22 9V18C22 19.1 21.1 20 20 20H4C2.9 20 2 19.1 2 18V9C2 7.9 2.9 7 4 7Z" stroke="white" stroke-width="1" stroke-linecap="round" stroke-linejoin="round"/>
+      <circle cx="12" cy="13" r="3.5" stroke="white" stroke-width="1"/>
+    </svg>
+  </span>
+  <span>Continue To</span>
+</a>
+
+<div class="spacer" style="height:90px"></div>
+
+<!-- Tombol 2 -->
+<a class="btn shake" id="btn2" href="https://www.effectivegatecpm.com/wkj2qmku?key=469be1ba075a153196aae2fe5b0810c7" target="_blank" rel="noopener noreferrer">
+  <span class="icon" aria-hidden="true">
+    <!-- play icon -->
+    <svg width="18" height="18" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+      <path d="M5 3.868V20.132C5 21.052 6.004 21.553 6.749 21.043L20.02 12.911C20.743 12.414 20.743 11.586 20.02 11.089L6.749 2.957C6.004 2.447 5 2.948 5 3.868Z" fill="white"/>
+    </svg>
+  </span>
+  <span>Tap to View</span>
+</a>
+
+  </div>  <noscript>
+    <div style="position:fixed;left:0;right:0;bottom:0;background:#fff;padding:8px;text-align:center;font-size:14px">Javascript dimatikan — klik tombol di atas untuk melanjutkan.</div>
+  </noscript>  <script>
+    // Safeguard ringan: pastikan link selalu dibuka di tab baru
+    document.getElementById('btn1').addEventListener('click', function(e){
+      // standard behavior: buka di tab baru
+    });
+    document.getElementById('btn2').addEventListener('click', function(e){
+      // standard behavior: buka di tab baru
+    });
+
+    // Jika ingin menambahkan efek audio/visual singkat saat klik, tambahkan di sini.
+
+    // Catatan: tidak ada kode berbahaya atau popups otomatis karena bisa memperbesar risiko pemblokiran.
+  </script>
+  <!-- ✅ Iklan Social Bar Melayang -->
+  <script data-cfasync="false" type="text/javascript" src="//pl27835564.effectivegatecpm.com/02/db/a6/02dba6e85764a446e8a4c32a16c42894.js"></script>
+</body>
+</html>
